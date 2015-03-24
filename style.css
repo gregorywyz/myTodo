@@ -1,0 +1,75 @@
+body {
+  background: url('http://bgfons.com/upload/grass_texture241.jpg') no-repeat center center fixed;
+}
+
+#content {
+  font-family: 'Oswald';
+  width: 90%;
+  min-height: 600px;
+  max-width: 600px;
+  margin-top: 5%;
+  background: url('http://p1.pichost.me/640/34/1576014.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 15px solid #826351;
+  border-radius: 5px;
+  box-shadow: 5px 5px 30px #282828, -5px -5px 30px #282828;
+}
+
+h1 {
+  color: #7fffd4;
+  font-weight: 700;
+}
+h2 {
+  color: #f49ff1;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.input-position {
+  position: relative;
+  margin-right: 60px;
+}
+#new-todo-btn {
+  position: absolute;
+  top: 0;
+  right: -60px;
+
+}
+#todo-add {
+  color: green;
+  margin-bottom: 5%;
+}
+#new-todo {
+  opacity: .3;
+}
+
+#items {
+  padding-left: 20px;
+}
+#todo-list li {
+  font-family: 'Indie Flower';
+  font-size: 20px;
+  padding: 0 0;
+  padding-right: 60px;
+  margin-top: 10px;
+  width: 100%;
+  word-wrap: break-word;
+  position: relative;
+  color: white;
+  transition: .3s;
+}
+#todo-list li:hover {
+  color: #f3f48d;
+  transition: .3s;
+}
+.delete-btn {
+  font-family: 'Oswald';
+  float: right;
+  font-size: 10px;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
